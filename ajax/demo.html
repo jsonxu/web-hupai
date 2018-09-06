@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+
+	
+
+	<script>
+		
+		$.ajax({
+			url: 'https://www.sojson.com/open/api/weather/json.shtml',
+			type: 'GET',
+			dataType: 'jsonp',
+			data: {city: '%E6%AD%A6%E6%B1%89'},
+		})
+		.done(function() {
+			console.log("success");
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+	</script>
+</body>
+</html>

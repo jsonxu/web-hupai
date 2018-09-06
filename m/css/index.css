@@ -1,0 +1,498 @@
+.layout-contain{
+    width: 10.0rem;
+    overflow: hidden;
+}
+
+.mod-bner {
+    
+}
+
+.mod-bner img {
+    width: 100%;
+}
+
+.mod-bner a {
+    display: block;
+}
+
+.layout-main {
+    width: 100%;
+    background: #efefef;
+    margin-top: -3px;
+    padding-bottom: 20px;
+}
+
+.layout-box {
+    
+}
+
+.mod-post {
+    zoom: 1;
+    height: 0.96rem;
+    background: #FFF;
+}
+
+.mod-post:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.mod-post h2 {
+    float: left;
+    background: url('../images/h_12.jpg') no-repeat 0.4666666667rem 0;
+    background-size: 0.4133333333rem 0.3333333333rem;
+    height: 0.3333333333rem;
+    padding-left: 0.9333333333rem;
+    font-size: 0.2666666667rem;
+    display: inline;
+    font-weight: bold;
+    margin-top: 0.3333333333rem;
+}
+
+.mod-post div {
+    width: 8.6666666667rem;
+    font-size: 0.2666666667rem;
+    overflow-x: hidden;
+    line-height: 0.3333333333rem;
+    margin-left: 0.4rem;
+    float: left;
+    margin-top: 0.2666666667rem;
+}
+
+.mod-reg {
+    background: #FFF;
+    height: 1.5333333333rem;
+    padding-top: 0.3333333333rem;
+    margin-top: 0.2666666667rem;
+}
+.mod-reg .cont{
+    width: 9.2666666667rem;
+    height: 1.1066666667rem;
+    margin-left: 0.4rem;
+    background: #FFF url('../images/h_19.jpg') no-repeat 0.5333333333rem 0.2666666667rem;
+    border: 1px solid #CCC;
+}
+
+.mod-reg .tel {
+    margin-left: 1.1333333333rem;
+    height: 1.1066666667rem;
+    line-height: 1.1066666667rem;
+    font-size: 0.32rem;
+    color: #666;
+    border: 0 none;
+    font-weight: lighter;
+    width: 5.2rem;
+    outline: 0 none;
+}
+
+.mod-reg button {
+    width: 2.4666666667rem;
+    color: #FFF;
+    height: 0.64rem;
+    background: #0081df;
+    overflow-x: hidden;
+    cursor: pointer;
+    font-size: 0.32rem;
+    font-weight: bolder;
+}
+
+.mod-rule-list {
+    width: 100%;
+    background: #FFF;
+    margin-top: 20px;
+}
+
+.mod-rule-list ul {
+    zoom: 1;
+}
+
+.mod-rule-list ul:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.mod-rule-list li {
+    width: 1.6666666667rem;
+    float: left;
+    margin-left: 0.6rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    padding-top: 0.2666666667rem;
+    padding-bottom: 0.3333333333rem;
+}
+
+.mod-rule-list li img{}
+.mod-rule-list li .p1 {
+    font-weight: bold;
+}
+
+.mod-rule-list li .p2 {
+    font-size: 0.24rem;
+    color: #0081df;
+}
+
+.mod-rule-list li p {
+    margin-top: 0.1333333333rem;
+}
+
+.cell-tit {
+    margin-top: 25px;
+    zoom: 1;
+    margin-bottom: 25px;
+}
+
+.cell-tit:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.cell-tit h2 {
+    font-size: 0.2666666667rem;
+    font-weight: bold;
+    float: left;
+    height: 0.4rem;
+    margin-left: 0.5333333333rem;
+    padding-left: 0.4666666667rem;
+    background: url('../images/h_34.jpg') no-repeat 0 0.0666666667rem;
+    background-size: 0.2933333333rem 0.2933333333rem;
+}
+
+.cell-tit p {
+    float: left;
+    margin-left: 0.2666666667rem;
+    font-size: 0.2666666667rem;
+}
+
+.cell-tit .more {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.mod-steps .content {
+    background: #FFF;
+    text-align: center;
+}
+.mod-steps img{
+    width: 10.0rem;
+    height: auto;
+}
+
+.mod-group-pro {}
+
+.mod-group-pro .content li {
+    text-align: center;
+    background: #FFF;
+    
+    margin-bottom: 0.2666666667rem;
+    padding-bottom: 0.2666666667rem;
+    padding-top: 0.2666666667rem;
+}
+
+.mod-group-pro img{
+    width: 9.3333333333rem;
+    height: auto;
+}
+
+.mod-1pei {}
+
+.mod-1pei li {
+    width: 4.8666666667rem;
+    height: 4.0rem;
+    background: #FFF;
+    float: left;
+    margin: 0.0666666667rem;
+    padding: 0.2666666667rem 0;
+    margin-bottom: 0.2666666667rem;
+    height: 4.6666666667rem;
+}
+
+.mod-1pei .grup {
+    margin: 0 0.4rem;
+}
+
+.mod-1pei .pic {
+    float: left;
+}
+
+.mod-1pei img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.mod-1pei .info {
+    float: left;
+    margin-left: 0.2666666667rem;
+}
+
+.mod-1pei h3 {
+    font-size: 0.32rem;
+    font-weight: bold;
+    margin-top: 0.08rem;
+}
+
+.mod-1pei .p1 {
+    float: left;
+    font-size: 0.16rem;
+    height: 0.2133333333rem;
+    line-height: 0.2133333333rem;
+    border: 1px solid #fb4000;
+    border-radius: 0.04rem;
+    color: #fb4000;
+    padding: 0 0.0533333333rem;
+    margin-top: 0.1333333333rem;
+}
+
+.mod-1pei .p2 {
+    float: left;
+    font-size: 0.1866666667rem;
+    height: 0.2133333333rem;
+    line-height: 0.2133333333rem;
+    border: 1px solid #0081df;
+    border-radius: 0.04rem;
+    color: #0081df;
+    padding: 0 0.0533333333rem;
+    margin-left: 0.2666666667rem;
+    display: inline;
+    margin-top: 0.1333333333rem;
+}
+
+.mod-1pei .p3,
+.mod-1pei .tips1 {
+    margin: 0 0.2666666667rem;
+    font-size: 0.2133333333rem;
+    color: #9fa0a0;
+    border-top: 1px solid #dcdddd;
+    margin-top: 0.2666666667rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.mod-1pei .p3 strong {
+    color: #fb4000;
+    font-size: 0.4266666667rem;
+    margin-left: 0.2666666667rem;
+}
+
+.mod-1pei .tips1 {
+    padding-bottom: 0;
+}
+
+.mod-1pei .tips1 strong {
+    color: #fb4000;
+    font-size: 0.2133333333rem;
+    margin-left: 0.2666666667rem;
+    font-weight: bolder;
+}
+
+.mod-1pei .tips2 {
+    margin-left: 1.3333333333rem;
+    color: #9fa0a0;
+}
+
+.mod-1pei .btn a {
+    display: block;
+    width: 4.3333333333rem;
+    background: #fb4000;
+    border-radius: 0.04rem;
+    margin-left: 0.2666666667rem;
+    font-size: 0.2133333333rem;
+    font-weight: bold;
+    color: #FFF;
+    height: 0.5333333333rem;
+    line-height: 0.5333333333rem;
+    text-align: center;
+    margin-top:0.2666666667rem;
+}
+
+.mod-1pei .more {
+    text-align: right;
+    padding-right: 0.2666666667rem;
+    margin-top: 0.1333333333rem;
+}
+
+.mod-1pei .more a {
+    color: #333;
+}
+
+.mod-6pei {}
+
+.mod-6pei .content {
+    background: #FFF;
+    padding-top: 20px;
+}
+
+.mod-6pei li {
+    width: 9.4666666667rem;
+    height: 2.6666666667rem;
+    background: url('../images/h_45.jpg') no-repeat 0 0;
+    background-size: 9.4666666667rem auto;
+    float: left;
+    margin-bottom: 0.4rem;
+    margin-left: 0.2666666667rem;
+    margin-right: 0.1333333333rem;
+
+}
+
+.mod-6pei .grup {
+    float: left;
+    margin-left: 0.4rem;
+    display: inline;
+    padding-top: 0.4rem;
+}
+
+.mod-6pei .pic {
+    float: left;
+    margin-left: 0.2666666667rem;
+}
+
+.mod-6pei img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.mod-6pei .info {
+    float: left;
+    margin-left: 0.6666666667rem;
+    width: 3.0666666667rem;
+}
+
+.mod-6pei h3 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.mod-6pei .p1 {
+    float: left;
+    font-size: 0.16rem;
+    height: 0.2133333333rem;
+    line-height: 0.2133333333rem;
+    border: 1px solid #fb4000;
+    border-radius: 0.04rem;
+    color: #fb4000;
+    padding: 0 0.0533333333rem;
+    margin-top: 0px;
+}
+
+.mod-6pei .p2 {
+    float: left;
+    font-size: 0.16rem;
+    height: 0.2133333333rem;
+    line-height: 0.2133333333rem;
+    border: 1px solid #0081df;
+    border-radius: 0.04rem;
+    color: #0081df;
+    padding: 0 0.0533333333rem;
+    margin-left: 0.1333333333rem;
+    display: inline;
+    margin-top: 0px;
+}
+
+.mod-6pei .btn a {
+    display: block;
+    width: 2.6666666667rem;
+    background: #f7ab00;
+    border-radius: 0.04rem;
+    font-size: 0.2133333333rem;
+    font-weight: bold;
+    color: #FFF;
+    height: 0.5333333333rem;
+    line-height: 0.5333333333rem;
+    text-align: center;
+    margin-top: 0.1333333333rem;
+}
+
+.mod-6pei .p3 strong {
+    color: #fb4000;
+    font-size: 0.4266666667rem;
+}
+
+.mod-6pei .tips1 {
+    margin-top: 0.1333333333rem;
+}
+
+.mod-6pei .tips1 strong {
+    font-size: 0.2666666667rem;
+}
+
+.mod-6pei .box {
+    float: left;
+    width: 2.6666666667rem;
+    text-align: center;
+    padding-top: 0.8rem;
+    margin-left: 0.8rem
+
+}
+
+.mod-bn-box {
+    margin-bottom: 20px;
+}
+
+.mod-bn-box img {
+    width: 100%;
+}
+
+.mod-news {
+
+}
+
+.mod-news .content {
+    background: #FFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 0 0.4rem;
+    font-size: 0.24rem;
+    padding-bottom: 2.0rem;
+}
+
+.mod-news .content a {
+    float: left;
+    font-size: 0.24rem;
+    line-height: 0.72rem;
+}
+
+.mod-news .content span {
+    float: right;
+    line-height: 0.72rem;
+}
+
+.mod-news .content ul {
+    padding-top: 20px;
+}
+
+.mod-news .content li {
+    height: 0.72rem;
+    line-height: 0.72rem;
+    border-bottom: 1px dashed #AAA;
+}
+.mod-news .content .btn1{
+    width: 4.4rem;
+    height: 1.2rem;
+    color: #FFF;
+    line-height: 1.2rem;
+    font-size: 0.4rem;
+    border-radius: 0.0666666667rem;
+    text-indent: 1.8933333333rem;
+    background:#0099cc url('../images/b_07.png') no-repeat 1.1333333333rem 0.3333333333rem;
+    float: left;
+    margin-top: 0.6666666667rem;
+}    
+
+.mod-news .content .btn2{
+    width: 4.4rem;
+    margin-top: 0.6666666667rem;
+    height: 1.2rem;
+    margin-left: 0.1333333333rem;
+    color: #FFF;
+    line-height: 1.2rem;
+    font-size: 0.4rem;
+    border-radius: 0.0666666667rem;
+    text-indent: 1.8933333333rem;
+    float: right;
+    background:#fb4000 url('../images/b_09.png') no-repeat 1.1333333333rem 0.3333333333rem;
+}   
