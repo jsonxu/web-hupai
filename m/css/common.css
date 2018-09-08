@@ -155,110 +155,84 @@ a {
 }
 
 
-.mod-footer {}
-
-.mod-footer .ma {
-    width: 100%;
-    height: 100px;
-    position: relative;
-    top: 0px;
-    z-index: 111;
-    background: #000;
-    opacity: 0.7;
-}
-
-.mod-footer .ma .box {
-    width: 1230px;
+.layout-contain{
     margin: 0 auto;
+    width: 10.0rem;
+    overflow: hidden;
 }
 
-.mod-footer .ma .p1 {
+.cell-tit {
+    margin-top: 0.3333333333rem;
+    zoom: 1;
+    margin-bottom: 0.3333333333rem;
+}
+
+.cell-tit:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.cell-tit h2 {
+    font-size: 0.2666666667rem;
+    font-weight: bold;
     float: left;
-    margin-top: 10px;
-    margin-left: 60px;
-    display: inline;
+    height: 0.4rem;
+    margin-left: 0.5333333333rem;
+    padding-left: 0.4666666667rem;
+    background: url('../images/h_34.jpg') no-repeat 0 0.0666666667rem;
+    background-size: 0.2933333333rem 0.2933333333rem;
 }
 
-.mod-footer .ma .p2 {
-    position: absolute;
-    left: 50%;
-    margin-left: -142px;
-    top: -50px;
-    z-index: 1;
-    opacity: 1;
+.cell-tit p {
+    float: left;
+    margin-left: 0.2666666667rem;
+    font-size: 0.2666666667rem;
 }
 
-.mod-footer .ma .p3 {
+.cell-tit .more {
     float: right;
-    margin-top: 10px;
-    margin-right: 60px;
+    margin-top: 0.1333333333rem;
+    margin-right: 0.2666666667rem;
     display: inline;
+    font-size: 0.1866666667rem;
 }
 
-.mod-footer .ma .p4 {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    left: 50%;
-    margin-left: -85px;
-    top: 10px;
-    z-index: 1;
+
+.cell-tit2 {
+    zoom: 1;
+    padding-bottom: 0.6rem;
+    padding-top: 0.6rem;
+    background: #fff;
 }
 
-.mod-footer .content {
-    background: #303030;
-    padding-top: 30px;
-    padding-bottom: 20px;
+.cell-tit2:after {
+    display: block;
+    clear: both;
+    content: '';
 }
 
-.mod-footer .content .box {
-    width: 1230px;
-    margin: 0 auto;
-}
-
-.mod-footer .content dl {
+.cell-tit2 h2 {
+    font-size: 0.4266666667rem;
+    font-weight: normal;
     float: left;
-    width: 145px;
-    color: #FFF;
+    line-height: 0.5066666667rem;
+    margin-left: 0.5333333333rem;
+    padding-left: 0.7333333333rem;
+    background: url('../images/h_34.jpg') no-repeat 0 0;
+    background-size: 0.5066666667rem 0.5066666667rem;
 }
 
-.mod-footer .content a {
-    color: #FFF;
+.cell-tit2 p {
+    float: left;
+    margin-left: 0.2666666667rem;
+    font-size: 0.2666666667rem;
 }
 
-.mod-footer .content dt {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.mod-footer .content dd {
-    margin-bottom: 10px;
-}
-
-.mod-footer .content .last {
-    width: 200px;
-    margin-left: 30px;
-}
-
-.mod-footer .content .last .d2 {
-    line-height: 1.8em;
-}
-
-.mod-footer .content .last .d1 {
-    font-size: 24px;
-}
-
-.mod-footer .content .dl1 {
-    margin-left: 90px;
+.cell-tit2 .more {
+    float: right;
+    margin-top: 0.1333333333rem;
+    margin-right: 0.2666666667rem;
     display: inline;
-}
-
-.mod-footer .content .cop {
-    width: 1230px;
-    border-top: 1px solid #FFF;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 15px;
-    color: #FFF;
-    margin-top: 30px;
+    font-size: 0.1866666667rem;
 }

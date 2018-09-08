@@ -1,12 +1,3 @@
-.layout-contain{
-    width: 10.0rem;
-    overflow: hidden;
-}
-
-.mod-bner {
-    
-}
-
 .mod-bner img {
     width: 100%;
 }
@@ -71,6 +62,7 @@
     height: 1.1066666667rem;
     margin-left: 0.4rem;
     background: #FFF url('../images/h_19.jpg') no-repeat 0.5333333333rem 0.2666666667rem;
+    background-size: 0.2533333333rem 0.4933333333rem;
     border: 1px solid #CCC;
 }
 
@@ -90,11 +82,13 @@
     width: 2.4666666667rem;
     color: #FFF;
     height: 0.64rem;
+    line-height: 0.64rem;
     background: #0081df;
+    border: 0 none;
     overflow-x: hidden;
     cursor: pointer;
     font-size: 0.32rem;
-    font-weight: bolder;
+    border-radius: 0.0666666667rem;
 }
 
 .mod-rule-list {
@@ -123,54 +117,20 @@
     padding-bottom: 0.3333333333rem;
 }
 
-.mod-rule-list li img{}
+.mod-rule-list li img{
+    height: 0.8666666667rem;
+}
 .mod-rule-list li .p1 {
     font-weight: bold;
 }
 
 .mod-rule-list li .p2 {
-    font-size: 0.24rem;
+    font-size: 0.2133333333rem;
     color: #0081df;
 }
 
 .mod-rule-list li p {
     margin-top: 0.1333333333rem;
-}
-
-.cell-tit {
-    margin-top: 25px;
-    zoom: 1;
-    margin-bottom: 25px;
-}
-
-.cell-tit:after {
-    display: block;
-    clear: both;
-    content: '';
-}
-
-.cell-tit h2 {
-    font-size: 0.2666666667rem;
-    font-weight: bold;
-    float: left;
-    height: 0.4rem;
-    margin-left: 0.5333333333rem;
-    padding-left: 0.4666666667rem;
-    background: url('../images/h_34.jpg') no-repeat 0 0.0666666667rem;
-    background-size: 0.2933333333rem 0.2933333333rem;
-}
-
-.cell-tit p {
-    float: left;
-    margin-left: 0.2666666667rem;
-    font-size: 0.2666666667rem;
-}
-
-.cell-tit .more {
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-    display: inline;
 }
 
 .mod-steps .content {
@@ -202,17 +162,16 @@
 
 .mod-1pei li {
     width: 4.8666666667rem;
-    height: 4.0rem;
     background: #FFF;
     float: left;
     margin: 0.0666666667rem;
     padding: 0.2666666667rem 0;
     margin-bottom: 0.2666666667rem;
-    height: 4.6666666667rem;
 }
 
 .mod-1pei .grup {
     margin: 0 0.4rem;
+    margin-right: 0;
 }
 
 .mod-1pei .pic {
@@ -238,25 +197,26 @@
 .mod-1pei .p1 {
     float: left;
     font-size: 0.16rem;
-    height: 0.2133333333rem;
-    line-height: 0.2133333333rem;
+    height: 0.32rem;
+    line-height:0.32rem;
     border: 1px solid #fb4000;
     border-radius: 0.04rem;
     color: #fb4000;
     padding: 0 0.0533333333rem;
     margin-top: 0.1333333333rem;
+    text-align: center;
 }
 
 .mod-1pei .p2 {
     float: left;
     font-size: 0.1866666667rem;
-    height: 0.2133333333rem;
-    line-height: 0.2133333333rem;
+    height: 0.32rem;
+    line-height:0.32rem;
     border: 1px solid #0081df;
     border-radius: 0.04rem;
     color: #0081df;
     padding: 0 0.0533333333rem;
-    margin-left: 0.2666666667rem;
+    margin-left: 0.1333333333rem;
     display: inline;
     margin-top: 0.1333333333rem;
 }
@@ -290,8 +250,9 @@
 }
 
 .mod-1pei .tips2 {
-    margin-left: 1.3333333333rem;
+    margin-left: 1.8rem;
     color: #9fa0a0;
+    font-size: 0.2133333333rem;
 }
 
 .mod-1pei .btn a {
@@ -317,6 +278,7 @@
 
 .mod-1pei .more a {
     color: #333;
+    font-size: 0.1866666667rem;
 }
 
 .mod-6pei {}
@@ -362,16 +324,17 @@
 }
 
 .mod-6pei h3 {
-    font-size: 26px;
+    font-size: 0.3466666667rem;
     font-weight: bold;
-    margin-top: 6px;
+    margin-top: 0.08rem;
 }
 
 .mod-6pei .p1 {
     float: left;
     font-size: 0.16rem;
-    height: 0.2133333333rem;
-    line-height: 0.2133333333rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
     border: 1px solid #fb4000;
     border-radius: 0.04rem;
     color: #fb4000;
@@ -382,8 +345,9 @@
 .mod-6pei .p2 {
     float: left;
     font-size: 0.16rem;
-    height: 0.2133333333rem;
-    line-height: 0.2133333333rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
     border: 1px solid #0081df;
     border-radius: 0.04rem;
     color: #0081df;
@@ -414,6 +378,7 @@
 
 .mod-6pei .tips1 {
     margin-top: 0.1333333333rem;
+    font-size: 0.2133333333rem;
 }
 
 .mod-6pei .tips1 strong {
@@ -459,6 +424,7 @@
 .mod-news .content span {
     float: right;
     line-height: 0.72rem;
+    font-size: 0.2133333333rem;
 }
 
 .mod-news .content ul {
@@ -479,6 +445,7 @@
     border-radius: 0.0666666667rem;
     text-indent: 1.8933333333rem;
     background:#0099cc url('../images/b_07.png') no-repeat 1.1333333333rem 0.3333333333rem;
+    background-size: 0.5466666667rem 0.5466666667rem;
     float: left;
     margin-top: 0.6666666667rem;
 }    
@@ -495,4 +462,5 @@
     text-indent: 1.8933333333rem;
     float: right;
     background:#fb4000 url('../images/b_09.png') no-repeat 1.1333333333rem 0.3333333333rem;
+    background-size: 0.5466666667rem 0.5466666667rem;
 }   
